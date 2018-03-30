@@ -1,0 +1,30 @@
+http://www.nbcconnecticut.com/weather/school-closings/
+http://www.nbcwashington.com/weather/school-closings/
+http://www.nbcboston.com/weather/school-closings/
+http://www.nbcnewyork.com/weather/school-closings/
+http://www.nbcphiladelphia.com/weather/school-closings/
+
+http://www.wkyt.com/weather/closings  # kentucky
+http://fox8.com/closings/  # northeast ohio
+http://www.wsaz.com/weather/closings?c=n&r=0.6751431271298114  # ohio
+
+
+http://www.emergencyclosingcenter.com/complete.html  # nbc chicago redirects to this page
+
+
+
+siteKey = {"washington":"http://www.nbcwashington.com/weather/school-closings/",
+            "connecticut":"http://www.nbcconnecticut.com/weather/school-closings/",
+            "boston":"http://www.nbcboston.com/weather/school-closings/",
+            "newyork":"http://www.nbcnewyork.com/weather/school-closings/", 
+            "philadelphia":"http://www.nbcphiladelphia.com/weather/school-closings/",
+            }
+
+
+### test cases keys ###
+siteKey = {"washington":"http://web.archive.org/web/20150108114350/http://www.nbcwashington.com/weather/school-closings/", "connecticut":"http://web.archive.org/web/20160208060302/http://www.nbcconnecticut.com/weather/school-closings/","boston":"http://www.nbcboston.com/weather/school-closings/","newyork":"http://web.archive.org/web/20150127141611/http://www.nbcnewyork.com/weather/school-closings/", "philadelphia":"http://www.nbcphiladelphia.com/weather/school-closings/"}
+siteKey = {"washington":"http://web.archive.org/web/20160121085644/http://www.nbcwashington.com/weather/school-closings/", "connecticut":"http://web.archive.org/web/20160211042252/http://www.nbcconnecticut.com/weather/school-closings/","boston":"http://www.nbcboston.com/weather/school-closings/","newyork":"http://www.nbcnewyork.com/weather/school-closings/", "philadelphia":"http://www.nbcphiladelphia.com/weather/school-closings/"}
+
+http://web.archive.org/web/20160122014920/http://www.wkyt.com:80/weather/closings  # kentucky
+
+# Maryland, virginia, west virginia, Pennsylvania, new jersey, new york, connecticut, massachusets, maine, kentucky, ohio
